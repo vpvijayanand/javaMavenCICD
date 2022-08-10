@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        WORKDIR: /home/ubuntu/maven/javaMavenCICD
+        working-directory: /home/ubuntu/maven/javaMavenCICD
         run: git pull
 
       # Runs a set of commands using the runners shell
