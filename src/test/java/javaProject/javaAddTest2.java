@@ -13,5 +13,13 @@ public class javaAddTest2 {
 		int expected =30;
 		assertEquals(expected,actual);
 	}
+	
+	@Test
+	public void testAdd1() {
+		javaAdd t=new javaAdd();
+		int actual=t.add(10,10);
+		int expected =20;
+		assertEquals(expected,actual);
+	}
 
 }
